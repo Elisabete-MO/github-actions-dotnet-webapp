@@ -9,7 +9,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '0 * * * *'
+#    - cron: '0 * * * *' comentei pra não ficar executando pra sempre
 
 jobs:
   build:
